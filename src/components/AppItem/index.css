@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.each-app-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+  align-items: center;
+  width: 45%;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .each-app-container {
+    max-width: 198px;
+    padding-top: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+}
+.app-icon {
+  width: 50%;
+}
+
+.app-name {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-name {
+    font-family: 'Bree Serif';
+    font-size: 24px;
+  }
+}
